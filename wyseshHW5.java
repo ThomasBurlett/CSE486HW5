@@ -6,26 +6,26 @@
 public class wyseshHW5 {
 
 	public static void main(String[] args) {
-		boolean [][] data1 = {
-			{  false,  true,  true,  true,  true},
-			{  false,  true, false,  true,  true},
-			{  true,  true,  true, false,  true},
-			{  true, true,  true,  true,  true},
-			{ false,  false, false, false, false},
-			{ false,  false,  true, false, false},
-			{ false,  false, false,  true, false},
-			{ false,  true, false, false, false},
-		};
-		boolean [][] data2 = {
-			{ false, false,  true,  true,  true,  true},
-			{ false, false,  true,  true, false,  true},
-			{  true, false,  true, false,  true,  true},
-			{  true,  true,  true, false, false,  true},
-			{ false, false,  true,  true, false, false},
-			{  true, false,  true,  true,  true, false},
-			{  true, false, false, false,  true, false},
-			{ false, false, false, false,  true, false},
-		};
+	boolean [][] data1 = {
+		{  true,  true,  true,  true,  true},
+		{  true,  true, false,  true,  true},
+		{  true,  true,  true, false,  true},
+		{  true, false,  true,  true,  true},
+		{ false,  true, false, false, false},
+		{ false,  true,  true, false, false},
+		{ false,  true, false,  true, false},
+		{ false,  true, false, false, false},
+	};
+	boolean [][] data2 = {
+		{ false, false,  true,  true,  true,  true},
+		{ false, false,  true,  true, false,  true},
+		{  true, false,  true, false,  true,  true},
+		{  true,  true,  true, false, false,  true},
+		{ false, false,  true,  true, false, false},
+		{  true, false,  true,  true,  true, false},
+		{  true, false, false, false,  true, false},
+		{ false, false, false, false,  true, false},
+	};
 		System.out.println(GetAttribute(data1));		// should output 0
 		System.out.println(GetAttribute(data2)); 		// should output 2
 	}
